@@ -31,17 +31,37 @@ h1
     color: #eaf9e7;
     font-size: x-large;
 }
+.qnt
+{color: red;
+     font-weight: 600;
+      font-size: 10px;}
 h3
 {
-  
-
-    background-color: #4ca771;
-    padding: 3px;
-    border-radius: 0 0 10px 10px;
-    color: #ffe600;
+    color: #0400ff;
     font-size:15px;
     text-align: center;
-    margin: 5px;
+}
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2px;
+}
+.buy
+{
+    background: #4ca771;
+    margin: 0px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #eaf9e7;
+    width: 150px;
+    transition: 0.5s ease-in-out;
+}
+.buy:hover
+{
+    background: #013237;
 }
 
 h2
@@ -77,12 +97,12 @@ p
 .year
 {
     background-color: #4ca771;
-    padding: 5px 15px;
-    border-radius: 15px;
+    padding: 3px 10px;
+    border-radius: 10px;
     color: #eaf9e7;
     border: #4ca771 2px solid;
     transition: 0.5s ease;
-    font-size: large;
+    font-size: 15px;
     font-weight: 600;
     margin: 10px ;
 
@@ -127,6 +147,7 @@ a{
     background-color: #c0e6ba;
     color: #013237;
 }
+
 a:hover
 {
     color: #eaf9e7;
@@ -155,26 +176,14 @@ align-items: center;
    align-items: center;
    background-color: #c0e6ba;
     margin: 5px;
-    width: 160px;
-    border-radius: 20px;
-    transition: 0.5s;
+    width: 170px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid #013237;
     
 }
-.box1:hover
-{
-    transform: scale(1.2);
 
-}
-.box2:hover
-{
-    transform: scale(1.2);
 
-}
-.box3:hover
-{
-    transform: scale(1.2);
-
-}
 .box2
 {
     display: flex;
@@ -183,9 +192,10 @@ align-items: center;
    align-items: center;
    background-color: #e6baba;
    margin: 5px;
-   width: 160px;
-    transition: 0.5s;
-    border-radius: 20px;
+   width: 170px;
+   height: 300px;
+    border-radius: 10px;
+    border: 1px solid #013237;
 }
 .box3
 {
@@ -194,16 +204,17 @@ align-items: center;
    justify-content: center;
    align-items: center;
    background-color: #bac9e6;
+   border: 1px solid #013237;
     margin: 5px;
-    width: 160px;
-    transition: 0.5s;
-    border-radius: 20px;
+    width: 170px;
+    height: 300px;
+    border-radius: 10px;
 }
 
 img
 {
  height: 150px;
- width: 120px;
+ width: 150px;
  padding: 5px;
  border-radius: 15px;
 }
